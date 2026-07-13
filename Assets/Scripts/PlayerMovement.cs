@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 targetPosition;
     private float flightTime;
 
+    public bool isTheFlyMoving;
+
     void Start() {
         targetPosition = transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -51,5 +53,7 @@ public class PlayerMovement : MonoBehaviour {
                 spriteRenderer.flipX = true;
             }
         }
+
+        if (Mathf.Abs(Vector3.Distance(targetPosition, transform.position)) >= 0.2f) isTheFlyMoving = true; else isTheFlyMoving = false;
     }
 }
