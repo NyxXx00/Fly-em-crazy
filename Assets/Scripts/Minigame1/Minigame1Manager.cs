@@ -9,16 +9,17 @@ public class Minigame1Manager : MonoBehaviour
     [Header("Stress")]
 
     [SerializeField] private Slider stressBar;
-
-    [SerializeField] private float stressAmount;
-
     [SerializeField] private float timeUntilDecay;
-    [SerializeField] private float timer;
+
+    private float stressAmount;
+    private float timer;
+    
 
     [Header("GameObjects")]
 
     [SerializeField] private GameObject handAttack;
     [SerializeField] private GameObject person;
+    [SerializeField] private GameObject finalScreen;
 
 
     [Header("Sprites")]
@@ -27,6 +28,11 @@ public class Minigame1Manager : MonoBehaviour
 
     private SpriteRenderer personSR;
 
+
+    [Header("HandAttack")]
+
+    [SerializeField] private float timeUntilTryAttack;
+    private float attackTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -54,9 +60,27 @@ public class Minigame1Manager : MonoBehaviour
         personSR.sprite = personPortraits[(int)((personPortraits.Length-1) * stressAmount)];
 
 
+        attackTimer -= Time.deltaTime;
 
+        if (attackTimer <= 0) TryAttack();
         
 
+    }
+
+    public void TryAttack()
+    {
+        attackTimer = timeUntilTryAttack;
+
+        if (Random.Range(0, 101) <= stressAmount * 100) 
+        {
+            Instantiate(handAttack);
+        }
+    }
+
+    public void ShowFinalScreen(bool fails) 
+    {
+        finalScreen.GetComponentInChildren<Text>().text = fails ? "Failed" : "Success";
+        finalScreen.SetActive(true); 
     }
 
     private void OnTriggerStay2D(Collider2D collision)
