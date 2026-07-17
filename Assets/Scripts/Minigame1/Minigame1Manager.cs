@@ -88,7 +88,6 @@ public class Minigame1Manager : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             timer = timeUntilDecay;
-            print(collision.GetComponent<PlayerMovement>().isTheFlyMoving);
             stressAmount += Time.deltaTime * 0.01f * (collision.GetComponent<PlayerMovement>().isTheFlyMoving ? 3 : 1);
         }
     }
