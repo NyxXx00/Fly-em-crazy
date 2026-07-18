@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour {
             targetPosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             targetPosition.z = 0f;
 
-            flightTime = 0f;
         }
 
         Vector3 direction = targetPosition - transform.position;
@@ -45,10 +44,10 @@ public class PlayerMovement : MonoBehaviour {
 
             // Flip the sprite based on movement direction
             if (direction.x > 0) {
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = true;
             }
             else if (direction.x < 0) {
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = false;
             }
         }
     }
