@@ -10,6 +10,9 @@ public class Minigame1Manager : MonoBehaviour
 
     [SerializeField] private Slider stressBar;
     [SerializeField] private float timeUntilDecay;
+    [SerializeField] private float steadyBarSpeed = 0;
+    [SerializeField] private float movingBarSpeed = 2;
+
 
     private float stressAmount;
     private float timer;
@@ -90,7 +93,7 @@ public class Minigame1Manager : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             timer = timeUntilDecay;
-            stressAmount += Time.deltaTime * 0.01f * (collision.GetComponent<PlayerMovement>().isTheFlyMoving ? 3 : 1);
+            stressAmount += Time.deltaTime * 0.01f * (collision.GetComponent<PlayerMovement>().isTheFlyMoving ? movingBarSpeed : steadyBarSpeed);
         }
     }
 }
