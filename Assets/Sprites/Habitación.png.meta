@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 1a70274baa34b624386ad18fbd86ac4b
+guid: d12781e1e1752e5468e43f5eabba170b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 509661901608234606
-    second: MoscaGrande-Sheet_0
-  - first:
-      213: 9156652491636587392
-    second: MoscaGrande-Sheet_1
-  - first:
-      213: -7705553377288213901
-    second: MoscaGrande-Sheet_2
-  - first:
-      213: 505188058948224886
-    second: MoscaGrande-Sheet_3
+      213: -3767624376263054193
+    second: "Habitaci\xF3n_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MoscaGrande-Sheet_0
+      name: "Habitaci\xF3n_0"
       rect:
         serializedVersion: 2
-        x: 22
-        y: 22
-        width: 20
-        height: 18
+        x: 0
+        y: 0
+        width: 160
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6ea8e89ccea21700800000000000000
-      internalID: 509661901608234606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MoscaGrande-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 22
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08bb1b75de6f21f70800000000000000
-      internalID: 9156652491636587392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MoscaGrande-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 22
-        width: 20
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37aace47700601590800000000000000
-      internalID: -7705553377288213901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MoscaGrande-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 22
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 677c06eecd9c20700800000000000000
-      internalID: 505188058948224886
+      spriteID: f8cecbd6795b6bbc0800000000000000
+      internalID: -3767624376263054193
       vertices: []
       indices: 
       edges: []
@@ -223,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MoscaGrande-Sheet_0: 509661901608234606
-      MoscaGrande-Sheet_1: 9156652491636587392
-      MoscaGrande-Sheet_2: -7705553377288213901
-      MoscaGrande-Sheet_3: 505188058948224886
+      "Habitaci\xF3n_0": -3767624376263054193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

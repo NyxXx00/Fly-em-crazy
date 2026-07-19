@@ -5,11 +5,22 @@ public class Minigame1Manager : MonoBehaviour
 {
 
     private Rigidbody2D rb;
+    private bool musicStarted = false;
+    private AudioSource musicSource;
+    [SerializeField] private AudioClip musicClip;
+    [Header("Sleeping")]
+
+    [SerializeField] private bool sleep = false;
+    [SerializeField] private float wakeUpThreshold;
+
 
     [Header("Stress")]
 
     [SerializeField] private Slider stressBar;
     [SerializeField] private float timeUntilDecay;
+    [SerializeField] private float steadyBarSpeed = 0;
+    [SerializeField] private float movingBarSpeed = 2;
+
 
     private float stressAmount;
     private float timer;
@@ -39,7 +50,9 @@ public class Minigame1Manager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        musicSource = GetComponent<AudioSource>();
+        musicSource.clip = musicClip;
+        musicSource.clip.LoadAudioData();
         personSR= person.GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         timer = timeUntilDecay;
@@ -59,12 +72,17 @@ public class Minigame1Manager : MonoBehaviour
 
         stressBar.value = stressAmount;
 
-        personSR.sprite = personPortraits[(int)((personPortraits.Length-1) * stressAmount)];
+        if (!sleep)
+        {
+            personSR.sprite = personPortraits[(int)((personPortraits.Length - 1) * stressAmount)];
 
 
-        attackTimer -= Time.deltaTime;
+            attackTimer -= Time.deltaTime;
 
-        if (attackTimer <= 0) TryAttack();
+            if (attackTimer <= 0) TryAttack();
+
+        }
+        else if (stressAmount >= wakeUpThreshold / 100) sleep = false;
         
 
     }
@@ -85,12 +103,23 @@ public class Minigame1Manager : MonoBehaviour
         finalScreen.SetActive(true); 
     }
 
+    
+
+    
+
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (!musicStarted)
+        {
+            musicStarted = true;
+            stressBar.gameObject.SetActive(true);
+            musicSource.Play();
+        }
+
         if (collision.CompareTag("Player"))
         {
             timer = timeUntilDecay;
-            stressAmount += Time.deltaTime * 0.01f * (collision.GetComponent<PlayerMovement>().isTheFlyMoving ? 3 : 1);
+            stressAmount += Time.deltaTime * 0.01f * (collision.GetComponent<PlayerMovement>().isTheFlyMoving ? movingBarSpeed : steadyBarSpeed);
         }
     }
 }

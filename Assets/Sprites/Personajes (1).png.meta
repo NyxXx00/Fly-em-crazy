@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 8e518dfe4f50f2446988d52ad07e50d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 260098208274920443
+    second: Personajes (1)_0
+  - first:
+      213: 1567646714275774355
+    second: Personajes (1)_1
+  - first:
+      213: 4377483895182319411
+    second: Personajes (1)_2
+  - first:
+      213: -6069236834899261661
+    second: Personajes (1)_3
+  - first:
+      213: -2164906172311461962
+    second: Personajes (1)_4
+  - first:
+      213: -6543669646066563232
+    second: Personajes (1)_5
+  - first:
+      213: 3885724622972169720
+    second: Personajes (1)_6
+  - first:
+      213: 1848311141785251928
+    second: Personajes (1)_7
+  - first:
+      213: -1067016965639519553
+    second: Personajes (1)_8
+  - first:
+      213: 3164963762223839359
+    second: Personajes (1)_9
+  - first:
+      213: -6073171024117853104
+    second: Personajes (1)_10
+  - first:
+      213: 5552208639632931308
+    second: Personajes (1)_11
+  - first:
+      213: 1207116295155080873
+    second: Personajes (1)_12
+  - first:
+      213: 6998827056383595455
+    second: Personajes (1)_13
+  - first:
+      213: 1034034108106269854
+    second: Personajes (1)_14
+  - first:
+      213: 7778659456458166181
+    second: Personajes (1)_15
+  - first:
+      213: 750224041858662015
+    second: Personajes (1)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mangry
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 40
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf331fe31fd0c9300800000000000000
+      internalID: 260098208274920443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mannoyed
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1
+        width: 40
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f37b1816661c510800000000000000
+      internalID: 1567646714275774355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mserious
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 40
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fd556e862ffbc30800000000000000
+      internalID: 4377483895182319411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mhappy
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 40
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3270d1e314db5cba0800000000000000
+      internalID: -6069236834899261661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pointing
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 64
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf13537e45b4f1e0800000000000000
+      internalID: -2164906172311461962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fist
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 64
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdae3705fddce530800000000000000
+      internalID: 3885724622972169720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fhappy
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1
+        width: 35
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2cdb919b13131f0800000000000000
+      internalID: -1067016965639519553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fserious
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1
+        width: 35
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78f556e5c53ceb20800000000000000
+      internalID: 3164963762223839359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fannoyed
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1
+        width: 35
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054924f6123c7bba0800000000000000
+      internalID: -6073171024117853104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fangry
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1
+        width: 35
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9fc2447586d0d40800000000000000
+      internalID: 5552208639632931308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a301b337d21ad4f4eb4e3900f8e65258
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fangry: 5552208639632931308
+      Fannoyed: -6073171024117853104
+      Fhappy: -1067016965639519553
+      Fserious: 3164963762223839359
+      Mangry: 260098208274920443
+      Mannoyed: 1567646714275774355
+      Mhappy: -6069236834899261661
+      Mserious: 4377483895182319411
+      Personajes (1)_12: 1207116295155080873
+      Personajes (1)_13: 6998827056383595455
+      Personajes (1)_14: 1034034108106269854
+      Personajes (1)_15: 7778659456458166181
+      Personajes (1)_16: 750224041858662015
+      Personajes (1)_17: -1940725202
+      Personajes (1)_5: -6543669646066563232
+      Personajes (1)_7: 1848311141785251928
+      fist: 3885724622972169720
+      pointing: -2164906172311461962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
