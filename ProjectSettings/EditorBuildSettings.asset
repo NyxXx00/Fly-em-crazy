@@ -5,8 +5,29 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/IntroScene_1.unity
+    guid: 2747fce98b067af4b9ccc416885617cf
+  - enabled: 1
+    path: Assets/Scenes/Scene_1.unity
+    guid: d66a890cc16481141ae0c382b2cf12e8
+  - enabled: 1
+    path: Assets/Scenes/IntroScene_2.unity
+    guid: f842b76f4e7a3d64a9163e8ca2f94596
+  - enabled: 1
+    path: Assets/Scenes/Scene_2.unity
+    guid: 2390c601730186744946c363e48d19f2
+  - enabled: 1
+    path: Assets/Scenes/IntroScene_3.unity
+    guid: 47fa82e46d86cba49b429bbbc1dc9596
+  - enabled: 1
+    path: Assets/Scenes/Scene_3.unity
+    guid: b3130281ba1f7994a9068f243dcf9b08
+  - enabled: 1
+    path: Assets/Scenes/MinigameDodge.unity
+    guid: 9b085a42f1566394d96135ff59735b15
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

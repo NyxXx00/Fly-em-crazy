@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5688147070955505208, guid: e4b6cde99e822df4cb9b26efba4e8ed1, type: 3}
+  m_Sprite: {fileID: 509661901608234606, guid: 1a70274baa34b624386ad18fbd86ac4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,7 +111,6 @@ MonoBehaviour:
   moveSpeed: 3
   waveAmplitude: 4
   waveFrequency: 12
-  isTheFlyMoving: 0
 --- !u!95 &5095581234091473270
 Animator:
   serializedVersion: 7
