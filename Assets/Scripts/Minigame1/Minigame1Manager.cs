@@ -31,7 +31,9 @@ public class Minigame1Manager : MonoBehaviour
 
     [Header("HandAttack")]
 
-    [SerializeField] private float timeUntilTryAttack;
+    [SerializeField] private float timeUntilTryAttack = 1;
+    [SerializeField] private float chanceMultiplier = 1;
+
     private float attackTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -71,7 +73,7 @@ public class Minigame1Manager : MonoBehaviour
     {
         attackTimer = timeUntilTryAttack;
 
-        if (Random.Range(0, 101) <= stressAmount * 100) 
+        if (Random.Range(0, 101) <= stressAmount * 100 * chanceMultiplier) 
         {
             Instantiate(handAttack);
         }
