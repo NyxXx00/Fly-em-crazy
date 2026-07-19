@@ -1,75 +1,133 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class HandAttack : MonoBehaviour
-{
-    [Header("Entities")]
-
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject minigameManager;
-
+public class HandAttack : MonoBehaviour {
     [Header("Parameters")]
-
-    [SerializeField] private bool autoSetLifetime;
-    [SerializeField] private float timeUntilAttack;
-    [SerializeField] private float lifeTime;
+    [SerializeField] private bool autoSetLifetime = true;
+    [SerializeField] private float timeUntilAttack = 1f;
+    [SerializeField] private float lifeTime = 1.5f;
 
     [Header("Sprites")]
+    [SerializeField] private Sprite handSprite;
 
-    public Sprite hand;
+    private Minigame1Manager minigameManager;
+    private GameObject player;
+    private SpriteRenderer spriteRenderer;
 
     private bool flyInHitbox;
+    private bool attackExecuted;
+    private bool playerWasHit;
 
-    private void Awake()
-    {
-        minigameManager = GameObject.Find("MinigameManager");
-        player = GameObject.Find("Fly");
-        transform.position = player.transform.position;
+    private void Awake() {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        minigameManager =
+            FindFirstObjectByType<Minigame1Manager>();
+
+        player =
+            GameObject.FindGameObjectWithTag("Player");
+
+        if (spriteRenderer == null) {
+            Debug.LogError(
+                "HandAttack requires a SpriteRenderer.",
+                gameObject
+            );
+        }
+
+        if (minigameManager == null) {
+            Debug.LogError(
+                "Minigame1Manager was not found in the scene.",
+                gameObject
+            );
+        }
+
+        if (player == null) {
+            Debug.LogError(
+                "No GameObject with the Player tag was found.",
+                gameObject
+            );
+        }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        lifeTime = autoSetLifetime ? timeUntilAttack + 0.5f : lifeTime;
+    private void Start() {
+        if (player == null || minigameManager == null) {
+            Destroy(gameObject);
+            return;
+        }
+
+        transform.position = player.transform.position;
+
+        if (autoSetLifetime) {
+            lifeTime = timeUntilAttack + 0.5f;
+        }
+
         Destroy(gameObject, lifeTime);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        timeUntilAttack-= Time.deltaTime;
+    private void Update() {
+        if (attackExecuted || playerWasHit)
+            return;
 
-        if(timeUntilAttack <= 0) Attack();
+        timeUntilAttack -= Time.deltaTime;
+
+        if (timeUntilAttack <= 0f) {
+            Attack();
+        }
     }
 
-    public void Attack()
-    {
-        GetComponent<SpriteRenderer>().sprite = hand;
-        timeUntilAttack = 100;
-        if (flyInHitbox) Failed();
-    }
+    private void Attack() {
+        if (attackExecuted)
+            return;
 
-    public void Failed()
-    {
-        player.SetActive(false);
-        minigameManager.GetComponent<Minigame1Manager>().ShowFinalScreen(true);
-    }
+        attackExecuted = true;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            flyInHitbox= true;
+        if (spriteRenderer != null &&
+            handSprite != null) {
+            spriteRenderer.sprite = handSprite;
         }
 
+        if (flyInHitbox) {
+            HitPlayer();
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
+    private void HitPlayer() {
+        if (playerWasHit)
+            return;
+
+        playerWasHit = true;
+
+        if (minigameManager != null) {
+            minigameManager.FlyWasHit();
+        }
+
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (!collision.CompareTag("Player"))
+            return;
+
+        flyInHitbox = true;
+
+        if (attackExecuted) {
+            HitPlayer();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision) {
+        if (!collision.CompareTag("Player"))
+            return;
+
+        flyInHitbox = true;
+
+        if (attackExecuted) {
+            HitPlayer();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (collision.CompareTag("Player")) {
             flyInHitbox = false;
         }
-
     }
 }

@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MinigamePattern.unity
     guid: 95a86c5ce0551894c80540a6e51371a4
+  - enabled: 1
+    path: Assets/Scenes/MinijuegoParry.unity
+    guid: 4783209ef0920da43a7fddc92122d0f5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
