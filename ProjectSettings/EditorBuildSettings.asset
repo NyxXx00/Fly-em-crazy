@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2d9a027f2e30d79438542cf7676ec86a
+  - enabled: 1
     path: Assets/Scenes/IntroScene_1.unity
     guid: 2747fce98b067af4b9ccc416885617cf
   - enabled: 1
@@ -29,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MinigameDodge.unity
     guid: 9b085a42f1566394d96135ff59735b15
+  - enabled: 1
+    path: Assets/Scenes/MinigamePattern.unity
+    guid: 95a86c5ce0551894c80540a6e51371a4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

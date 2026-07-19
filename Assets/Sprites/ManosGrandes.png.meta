@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 1a70274baa34b624386ad18fbd86ac4b
+guid: 67937b9221ce9064fb727fe1a1c901f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 509661901608234606
-    second: MoscaGrande-Sheet_0
+      213: 2826836752351334002
+    second: ManosGrandes_0
   - first:
-      213: 9156652491636587392
-    second: MoscaGrande-Sheet_1
+      213: 614220973487551685
+    second: ManosGrandes_1
   - first:
-      213: -7705553377288213901
-    second: MoscaGrande-Sheet_2
+      213: -6160484836094222130
+    second: ManosGrandes_2
   - first:
-      213: 505188058948224886
-    second: MoscaGrande-Sheet_3
+      213: 8749584368921054652
+    second: ManosGrandes_3
+  - first:
+      213: -5425185434564809458
+    second: ManosGrandes_4
+  - first:
+      213: 4502562691091969869
+    second: ManosGrandes_5
+  - first:
+      213: 2042883203560532716
+    second: ManosGrandes_6
+  - first:
+      213: 321860198402270503
+    second: ManosGrandes_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MoscaGrande-Sheet_0
+      name: ManosGrandes_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 22
-        width: 20
-        height: 18
+        x: 3
+        y: 95
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6ea8e89ccea21700800000000000000
-      internalID: 509661901608234606
+      spriteID: 27e8bed8c01fa3720800000000000000
+      internalID: 2826836752351334002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MoscaGrande-Sheet_1
+      name: ManosGrandes_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 22
-        width: 21
-        height: 16
+        x: 35
+        y: 95
+        width: 26
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08bb1b75de6f21f70800000000000000
-      internalID: 9156652491636587392
+      spriteID: 5c4f15a98b6268800800000000000000
+      internalID: 614220973487551685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MoscaGrande-Sheet_2
+      name: ManosGrandes_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 22
-        width: 20
-        height: 18
+        x: 0
+        y: 66
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37aace47700601590800000000000000
-      internalID: -7705553377288213901
+      spriteID: ec06c646eaf818aa0800000000000000
+      internalID: -6160484836094222130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MoscaGrande-Sheet_3
+      name: ManosGrandes_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 22
-        width: 21
-        height: 16
+        x: 32
+        y: 66
+        width: 29
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +215,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 677c06eecd9c20700800000000000000
-      internalID: 505188058948224886
+      spriteID: cbd89d150a4cc6970800000000000000
+      internalID: 8749584368921054652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManosGrandes_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d2424579ed5b4b0800000000000000
+      internalID: -5425185434564809458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManosGrandes_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 34
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b67579e05c7e30800000000000000
+      internalID: 4502562691091969869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManosGrandes_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea66d13377c95c10800000000000000
+      internalID: 2042883203560532716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManosGrandes_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725aa19252a777400800000000000000
+      internalID: 321860198402270503
       vertices: []
       indices: 
       edges: []
@@ -223,10 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MoscaGrande-Sheet_0: 509661901608234606
-      MoscaGrande-Sheet_1: 9156652491636587392
-      MoscaGrande-Sheet_2: -7705553377288213901
-      MoscaGrande-Sheet_3: 505188058948224886
+      ManosGrandes_0: 2826836752351334002
+      ManosGrandes_1: 614220973487551685
+      ManosGrandes_2: -6160484836094222130
+      ManosGrandes_3: 8749584368921054652
+      ManosGrandes_4: -5425185434564809458
+      ManosGrandes_5: 4502562691091969869
+      ManosGrandes_6: 2042883203560532716
+      ManosGrandes_7: 321860198402270503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
