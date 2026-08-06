@@ -106,12 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e56d07f27acab1843a8f42a5e3021ac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandAttack
-  player: {fileID: 0}
-  minigameManager: {fileID: 0}
   autoSetLifetime: 1
   timeUntilAttack: 1.5
   lifeTime: 0
-  hand: {fileID: 3885724622972169720, guid: 8e518dfe4f50f2446988d52ad07e50d7, type: 3}
+  handSprite: {fileID: 4502562691091969869, guid: 67937b9221ce9064fb727fe1a1c901f8, type: 3}
 --- !u!61 &6536726450442501723
 BoxCollider2D:
   m_ObjectHideFlags: 0

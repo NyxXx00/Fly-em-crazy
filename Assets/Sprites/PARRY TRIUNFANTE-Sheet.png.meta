@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: b1780163b36b44e44998d1a079a1f2cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3181569283623223906
+    second: PARRY TRIUNFANTE-Sheet_0
+  - first:
+      213: -5505479668317206268
+    second: PARRY TRIUNFANTE-Sheet_1
+  - first:
+      213: 3494181948698007785
+    second: PARRY TRIUNFANTE-Sheet_2
+  - first:
+      213: -544599799629591379
+    second: PARRY TRIUNFANTE-Sheet_3
+  - first:
+      213: 1032827785303781826
+    second: PARRY TRIUNFANTE-Sheet_4
+  - first:
+      213: 458163474412401471
+    second: PARRY TRIUNFANTE-Sheet_5
+  - first:
+      213: 8437600876049555194
+    second: PARRY TRIUNFANTE-Sheet_6
+  - first:
+      213: 3029200749658797246
+    second: PARRY TRIUNFANTE-Sheet_7
+  - first:
+      213: -8787215813651389487
+    second: PARRY TRIUNFANTE-Sheet_8
+  - first:
+      213: 2851282083996486684
+    second: PARRY TRIUNFANTE-Sheet_9
+  - first:
+      213: 7812620569718443844
+    second: PARRY TRIUNFANTE-Sheet_10
+  - first:
+      213: -3179932705009878563
+    second: PARRY TRIUNFANTE-Sheet_11
+  - first:
+      213: 8799915892247160573
+    second: PARRY TRIUNFANTE-Sheet_12
+  - first:
+      213: -2962649688257429498
+    second: PARRY TRIUNFANTE-Sheet_13
+  - first:
+      213: -4249911488270049346
+    second: PARRY TRIUNFANTE-Sheet_14
+  - first:
+      213: -7059303075176843000
+    second: PARRY TRIUNFANTE-Sheet_15
+  - first:
+      213: 376349360890511085
+    second: PARRY TRIUNFANTE-Sheet_16
+  - first:
+      213: 2480756581153195183
+    second: PARRY TRIUNFANTE-Sheet_17
+  - first:
+      213: -6920497996427391254
+    second: PARRY TRIUNFANTE-Sheet_18
+  - first:
+      213: -3314567921618426244
+    second: PARRY TRIUNFANTE-Sheet_19
+  - first:
+      213: 1030610035785680315
+    second: PARRY TRIUNFANTE-Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9df75dd79bc8d3d0800000000000000
+      internalID: -3181569283623223906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40941d3396b9893b0800000000000000
+      internalID: -5505479668317206268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e81ab828f3dd7030800000000000000
+      internalID: 3494181948698007785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33f865a049bb5600800000000000000
+      internalID: 458163474412401471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe557dda41681570800000000000000
+      internalID: 8437600876049555194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ccb0bd2f9c19720800000000000000
+      internalID: 2851282083996486684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4afed3010c6c60800000000000000
+      internalID: 7812620569718443844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6e4ba41e49f1a70800000000000000
+      internalID: 8799915892247160573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6008e792ecd82e6d0800000000000000
+      internalID: -2962649688257429498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfdfc6b4084505c0800000000000000
+      internalID: -4249911488270049346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PARRY TRIUNFANTE-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809f2424141580e90800000000000000
+      internalID: -7059303075176843000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8006471a7a5bc87428fd5d753ff16bce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PARRY TRIUNFANTE-Sheet_0: -3181569283623223906
+      PARRY TRIUNFANTE-Sheet_1: -5505479668317206268
+      PARRY TRIUNFANTE-Sheet_10: 7812620569718443844
+      PARRY TRIUNFANTE-Sheet_11: -3179932705009878563
+      PARRY TRIUNFANTE-Sheet_12: 8799915892247160573
+      PARRY TRIUNFANTE-Sheet_13: -2962649688257429498
+      PARRY TRIUNFANTE-Sheet_14: -4249911488270049346
+      PARRY TRIUNFANTE-Sheet_15: -7059303075176843000
+      PARRY TRIUNFANTE-Sheet_2: 3494181948698007785
+      PARRY TRIUNFANTE-Sheet_3: -544599799629591379
+      PARRY TRIUNFANTE-Sheet_4: 1032827785303781826
+      PARRY TRIUNFANTE-Sheet_5: 458163474412401471
+      PARRY TRIUNFANTE-Sheet_6: 8437600876049555194
+      PARRY TRIUNFANTE-Sheet_7: 3029200749658797246
+      PARRY TRIUNFANTE-Sheet_8: -8787215813651389487
+      PARRY TRIUNFANTE-Sheet_9: 2851282083996486684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
